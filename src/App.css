@@ -4,6 +4,10 @@
   padding-left: 0;
 }
 
+.planet:nth-child(3n) {
+  color:red
+}  
+
 .App {
   text-align: center;
 }

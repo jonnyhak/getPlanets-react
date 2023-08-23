@@ -21,11 +21,10 @@ function App() {
 
   return (
     <div className="container">
-      {planets.map((body, idx) => {
-        console.log(idx)
+      {planets.map((body) => {
         return( 
-          <div style={{ flex: '0 0 33.333333%' }}>
-            <h2 style={{color: ((idx === 2 || idx % 3 === 2) && idx > 1) ? 'red' : ""}}>
+          <div className="planet" style={{ flex: '0 0 33.333333%' }}>
+            <h2>
               {/* {body.enlgishName} */}
               {body.englishName}
             </h2>
