@@ -1,3 +1,5 @@
+![image](https://github.com/jonnyhak/getPlanets-react/assets/20521726/92cde21c-dd80-4bbd-a7e9-b628aeb0ac9e)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
