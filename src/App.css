@@ -4,8 +4,12 @@
   padding-left: 0;
 }
 
+.planet {
+  flex: '0 0 33.333333%';
+}
+
 .planet:nth-child(3n) {
-  color:red
+  color:red;
 }  
 
 .App {

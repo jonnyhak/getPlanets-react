@@ -21,9 +21,9 @@ function App() {
 
   return (
     <div className="container">
-      {planets.map((body) => {
+      {planets.map((body, idx) => {
         return( 
-          <div className="planet" style={{ flex: '0 0 33.333333%' }}>
+          <div className="planet" style={{ flex: '0 0 33.333333%' }} key={idx}>
             <h2>
               {/* {body.enlgishName} */}
               {body.englishName}
